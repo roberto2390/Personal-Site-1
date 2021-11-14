@@ -1,0 +1,71 @@
+header {
+    background-color: aqua;
+    
+
+    
+    
+}
+body{
+    margin: 0px;
+    background-color: gray;
+}
+
+
+header::after{
+    content:'';
+    display: table;
+    clear: both;
+
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Times', serif, Arial;
+
+
+}
+.nav {
+    float:rigth;
+    text-align: center;
+
+}
+
+.nav li {
+
+    display: inline-block;
+    padding-top: 23px;
+    margin-left: 70px;
+    margin-bottom: 23px;
+    
+}
+.nav a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px;
+    
+}
+
+.Intro{
+    font-family: 'Times New Roman', Arial, Helvetica;
+    color: black;
+}
+
+h1 {
+    font-family:'Times', serif, Arial;
+}
+.Intro{
+    text-align: center;
+}
+.nav a:hover{
+    background-color: whitesmoke;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+
+  
